@@ -61,6 +61,9 @@ git commit -m "Add your commit message here"
 git push origin experimental/your-name
 ```
 
+Compose clear and concise commits using present tense verbs, without ending periods.
+Read your commit message as: <i>"If applied, this commit will `<your commit message>`"</i>.
+
 #### Basic Git Commands
 - `git status`: Check the status of your working directory and staging area.
 - `git add <file>`: Add changes in <file> to the staging area.
