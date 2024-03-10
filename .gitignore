@@ -1,0 +1,9 @@
+# Ignore specific file
+filename.txt
+
+# Ignore all .log files
+*.log
+
+# Ignore a folder and its contents
+.idea/
+venv/
