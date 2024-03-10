@@ -31,6 +31,9 @@ git config --global user.name "Your Name"
 Replace `you@example.com` with your GitHub account email address 
 and `Your Name` with your name.
 
+You may also set up SSH keys by following the steps here: 
+[Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
 ### 3. Clone the Repository
 Now that you have Git installed and configured, 
 clone this repository to your local machine using the following command:
