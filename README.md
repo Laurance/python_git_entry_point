@@ -42,9 +42,9 @@ clone this repository to your local machine using the following command:
 git clone https://github.com/Laurance/python_git_entry_point
 ```
 
-### 4. Start Developing
-You are now ready to start developing! 
-Create a new branch for your changes using the following commands:
+### 4. Create a Branch
+Create a new branch to keep all the files that you will create
+and all your progress. Use the following commands:
 
 ```bash
 cd python_git_entry_point
@@ -53,7 +53,21 @@ git checkout -b experimental/your-name
 
 Replace `your-name` with your name.
 
-Make your changes, commit them, and push to your branch when ready:
+
+### 5. Start Developing
+You are now ready to start developing!
+
+Create a new Python file in the python_git_entry_point directory,
+and add your code there. Make sure you don't have any errors and that
+you follow all PEP8 Style Guide recommendations. 
+You can check the status of your files with the following command:
+
+```bash
+git status
+```
+
+Once you consider you reached a step where your files can be saved
+you can commit them, and push them to the remote version of your branch:
 
 ```bash
 git add .
