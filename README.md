@@ -34,15 +34,30 @@ and `Your Name` with your name.
 You may also set up SSH keys by following the steps here: 
 [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
-### 3. Clone the Repository
-Now that you have Git installed and configured, 
-clone this repository to your local machine using the following command:
+### 3. Fork the Repository
+
+Login into GitHub with your institutional email address.
+In case you did not apply for the <b>GitHub Student Developer Pack</b>
+you can do that now by following this link: https://education.github.com/pack
+
+Once you are logged in you can fork this repository by following
+the steps described here: [Forking a Repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
+
+### 4. Clone the Repository
+Right now you have a fork of this repository in your account, 
+but you do not have the files in that repository locally on your 
+computer. Navigate to your repository and copy its URL.
+
+Now that you also have Git installed and configured on your local machine
+you can clone that repository to your machine using the following command:
 
 ```bash
-git clone https://github.com/Laurance/python_git_entry_point
+git clone your-repository-url
 ```
 
-### 4. Create a Branch
+Replace `your-repository-url` with the URL of your repository.
+
+### 5. Create a Branch
 Create a new branch to keep all the files that you will create
 and all your progress. Use the following commands:
 
@@ -54,7 +69,7 @@ git checkout -b experimental/your-name
 Replace `your-name` with your name.
 
 
-### 5. Start Developing
+### 6. Start Developing
 You are now ready to start developing!
 
 Create a new Python file in the python_git_entry_point directory,
